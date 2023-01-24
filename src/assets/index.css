@@ -65,3 +65,7 @@ body {
   padding: 10px 0;
   color: darkred;
 }
+
+.post-preview a {
+  text-decoration: none;
+}
