@@ -12,8 +12,6 @@ export default function PostList({posts, handleDelete}) {
                                 padding: "1em 0",
                                 fontWeight: "bold"
                             }}>Written by { post.author }</p>
-
-                            <p>{ post.body }</p>
                         </div>
                     )
                 )

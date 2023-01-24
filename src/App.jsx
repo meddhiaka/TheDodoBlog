@@ -1,4 +1,4 @@
-import './App.css'
+import './assets/App.css'
 import Navbar from './components/Navbar'
 import Home from './components/Home'
 import Create from './components/Create'
