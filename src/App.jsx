@@ -1,8 +1,8 @@
 import './App.css'
-import Navbar from './Navbar'
-import Home from './Home'
-import Create from './Create'
-import PostDetails from './PostDetails'
+import Navbar from './components/Navbar'
+import Home from './components/Home'
+import Create from './components/Create'
+import PostDetails from './components/PostDetails'
 import { Route, Routes } from 'react-router-dom'
 
 export default function App() {
