@@ -69,3 +69,12 @@ body {
 .post-preview a {
   text-decoration: none;
 }
+
+article, article h2, article p, article div{
+  padding: .4rem 0;  
+}
+
+article h2 {
+  color: darkred;
+  margin-top: 2rem;
+}
