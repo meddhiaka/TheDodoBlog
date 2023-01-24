@@ -1,8 +1,8 @@
 {
   "posts": [
     {
-      "title": "first post",
-      "body": "where are you from",
+      "title": "First post",
+      "body": "hello world",
       "author": "mario",
       "id": 1
     }

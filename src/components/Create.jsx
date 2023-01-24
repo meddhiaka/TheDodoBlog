@@ -15,7 +15,7 @@ export default function Create() {
         setIsSubmiting(true)
         
         setTimeout(() => {
-            fetch('http://localhost:1337/posts', {
+            fetch('http://192.168.1.14:1337/posts', {
                 method: 'POST',
                 headers: {
                     "Content-Type": "application/json"

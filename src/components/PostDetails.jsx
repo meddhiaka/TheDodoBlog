@@ -4,10 +4,10 @@ import { useNavigate } from "react-router-dom"
 
 export default function PostDetails() {
     const {id} = useParams()
-    const {data: post, IsPending, error} = useFetch('http://localhost:1337/posts/' + id)
+    const {data: post, IsPending, error} = useFetch('http://192.168.1.14:1337/posts/' + id)
     const history = useNavigate()
     function handleDelete() {
-        fetch('http://localhost:1337/posts/' + post.id, {
+        fetch('http://192.168.1.14:1337/posts/' + post.id, {
             method: 'DELETE'
         })
         .then(() => {

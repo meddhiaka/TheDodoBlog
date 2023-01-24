@@ -3,7 +3,7 @@ import useFetch from './useFetch'
 
 export default function Home() {
 
-    const { data, IsPending, error } = useFetch('http://localhost:1337/posts')
+    const { data, IsPending, error } = useFetch('http://192.168.1.14:1337/posts/')
 
     return (
         <div className="Home">
