@@ -1,16 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;600;700&display=swap');
 
+:root {
+  --primary: darkred;
+  --secondary: lightslategray;
+  --black: #000;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
-  color: #000;
+  color: var(--black);
 }
 
 body {
   margin: 0 auto;
-  max-width: 600px;
+  max-width: 400px;
 }
 
 .nav {
@@ -32,15 +38,15 @@ body {
   font-size: 110%;
   font-weight: 500;
   padding: 15px 0;
-  color: darkred;
+  color: var(--primary);
 }
 
 .nav .links a:hover {
-  color: lightcoral;
+  color: var(--black);
 }
 
 .nav h1 {
-  color: darkred;
+  color: var(--primary);
 }
 
 .Home {
@@ -53,17 +59,20 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
 
-.post-preview:hover {
   background-color: rgba(0, 0, 0, .05);
   border-radius: 10px;
   box-shadow: 3px 3px .5px rgba(0, 0, 0, .2);
 }
 
+.post-preview:hover {
+  background-color: rgba(0, 0, 0, .15);
+  box-shadow: 3px 3px .5px rgba(0, 0, 0, .6);
+}
+
 .post-preview h2 {
   padding: 10px 0;
-  color: darkred;
+  color: var(--primary);
 }
 
 .post-preview a {
@@ -75,6 +84,81 @@ article, article h2, article p, article div{
 }
 
 article h2 {
-  color: darkred;
+  color: var(--primary);
   margin-top: 2rem;
+}
+
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.create h2 {
+  color: var(--primary);
+}
+
+.create input, .create textarea{
+  width: 100%;
+}
+
+.create input {
+  padding: 10px;
+}
+
+.create textarea {
+  height: 80px;
+  padding: .4rem;
+}
+
+.create label {
+  text-align: left;
+}
+
+.form-container {
+  display: flex;
+  gap: 0;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.form-container select {
+  width: 67%;
+}
+
+.form-container button, .btn {
+  width: 30%;
+  padding: .5rem 0;
+  border: 0;
+  margin: 0;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 8px;
+  font-weight: bold;
+  background: var(--primary);
+  font-size: 1.05rem;
+}
+
+.btn {
+  margin-top: 1rem;
+}
+
+form input, form textarea {
+  margin-bottom: 1rem;
+}
+
+.not-found {
+  margin: 0 auto;
+  max-width: 500px;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.not-found h1 {
+  font-size: 300%;
+}
+
+#blog-name{
+  cursor: default;
 }

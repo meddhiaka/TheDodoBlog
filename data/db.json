@@ -1,16 +1,10 @@
 {
-    "posts": [
-        {
-            "title": "My first blog",
-            "body": "Why do we use it? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, perspiciatis.\n",
-            "author": "mario",
-            "id": 1
-        },
-        {
-            "title": "Your second post",
-            "body":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, perspiciatis.\n",
-            "author": "dhia",
-            "id": 2
-        }
-    ]
+  "posts": [
+    {
+      "title": "first post",
+      "body": "where are you from",
+      "author": "mario",
+      "id": 1
+    }
+  ]
 }

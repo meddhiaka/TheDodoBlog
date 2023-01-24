@@ -4,7 +4,7 @@ export default function Navbar() {
     return (
         <div>
             <div className="nav">
-                        <h1>The Dodo Blog</h1>
+                        <h1 id="blog-name">The Dodo Blog</h1>
                         <div className="links">
                             <Link to="/" className="anchor">Home</Link>
                             <Link to="/create" className="anchor">New post</Link>
