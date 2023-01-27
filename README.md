@@ -1,5 +1,5 @@
 # TheDodoBlog
-Blog App (CRUD), with several API requests such as POST, DELETE. 
+Blog App (CRUD), with several API requests such as POST, GET and DELETE. 
 
 This Project is created using `Vite`, `React`, `React Router` and `json-server`.
 <br><br>
